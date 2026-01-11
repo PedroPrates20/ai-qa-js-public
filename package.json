@@ -1,0 +1,13 @@
+{
+  "name": "ai-qa-test-reporter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node run.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "dotenv": "^16.4.5"
+  }
+}
