@@ -6,33 +6,37 @@
 
 # 🤖 AI-Assisted QA Automation (Public API)
 
-A **JavaScript Quality Assurance project** focused on **automated API testing**, **HTML reporting**, and optional **AI-assisted analysis** to generate **bug reports** and **new test ideas** from real test failures.
+A **JavaScript QA automation project** using **Playwright** to test a **public API**, generate **HTML reports**, and optionally use **AI** to create **bug reports** and **new test ideas** from real failures.
 
-> Built as a portfolio project to demonstrate practical QA skills, automation, and analytical thinking.
+Built as a **portfolio project** to demonstrate practical QA, automation, and analytical skills.
 
 ---
 
 ## 🚀 Overview
 
-This project runs automated tests against a **public API** (JSONPlaceholder by default), validating:
-- API contracts
+The project runs automated API tests against a public API (JSONPlaceholder by default), covering:
+- API contract validation
 - Negative and edge-case scenarios
 - Basic performance checks (response time)
 
-When enabled, **AI analyzes test failures** and automatically produces:
-- 🐞 **Structured bug reports**
-- 🧪 **Suggestions for additional test cases**
+When enabled, **AI analyzes test failures** and generates:
+- Structured **bug reports**
+- Suggestions for **additional test cases**
 
 ---
 
 ## 🧰 Tech Stack
 
-- **JavaScript (Node.js)**
-- **Playwright Test** (API testing + HTML reports)
-- **dotenv** (environment variables)
-- **OpenAI-compatible LLM (optional)**
+- JavaScript (Node.js 18+)
+- Playwright Test (API testing + HTML report)
+- dotenv (environment variables)
+- OpenAI-compatible LLM (optional)
 
 ---
 
-## 📂 Project Structure
+## ▶️ How to Run
 
+```bash
+npm install
+cp .env.example .env
+npm test
